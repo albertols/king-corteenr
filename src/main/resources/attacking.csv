@@ -1,0 +1,177 @@
+player_name,club,position,assists,corner_taken,offsides,dribbles
+Bruno Fernandes,Man. United,Midfielder,7,10,2,7
+Vinícius Júnior,Real Madrid,Forward,6,3,4,83
+Sané,Bayern,Midfielder,6,3,3,32,
+Antony,Ajax,Forward,5,3,4,28
+Alexander-Arnold,Liverpool,Defender,4,36,0,9
+De Bruyne,Man. City,Midfielder,4,18,0,14,
+Modrić,Real Madrid,Midfielder,4,10,0,8,
+João Mário,Benfica,Midfielder,4,8,0,7
+Mbappé,Paris,Forward,4,4,8,43
+Gerard Moreno,Villarreal,Forward,4,0,3,9
+Capoue,Villarreal,Midfielder,4,0,0,17,
+Parejo,Villarreal,Midfielder,3,36,0,4,
+Grimaldo,Benfica,Defender,3,11,1,10,
+Müller,Bayern,Forward,3,10,8,2,
+Arnold,Wolfsburg,Midfielder,3,10,0,1
+Angeliño,Leipzig,Defender,3,8,0,4
+Coman,Bayern,Forward,3,4,4,59
+Bernardo Silva,Man. City,Midfielder,3,2,3,18,
+Bellingham,Dortmund,Midfielder,3,1,1,24
+Zapata,Atalanta,Forward,3,0,7,10
+Lewandowski,Bayern,Forward,3,0,7,1,
+João Cancelo,Man. City,Defender,3,0,2,26
+Cristiano,Sheriff,Defender,3,0,1,7
+Mahrez,Man. City,Midfielder,2,30,5,28,
+Robertson,Liverpool,Defender,2,27,1,9,
+Ziyech,Chelsea,Midfielder,2,23,0,12
+Gündoğan,Man. City,Midfielder,2,16,1,3,
+Tsimikas,Liverpool,Defender,2,16,0,4
+Foden,Man. City,Midfielder,2,13,6,12,
+Pjanic,Beşiktaş,Midfielder,2,9,0,4
+Forsberg,Leipzig,Forward,2,9,0,3
+Bernardeschi,Juventus,Midfielder,2,7,1,7
+Dahoud,Dortmund,Midfielder,2,7,1,3
+Pedro Gonçalves,Sporting CP,Midfielder,2,7,0,10
+Mount,Chelsea,Midfielder,2,7,0,6
+Douglas Santos,Zenit,Defender,2,6,1,3
+Rakitskyy,Zenit,Defender,2,6,0,4
+Tadić,Ajax,Forward,2,5,5,13
+Asensio,Real Madrid,Forward,2,5,0,1
+Aaronson,Salzburg,Midfielder,2,4,5,9
+Danjuma,Villarreal,Midfielder,2,3,8,31,
+Shaw,Man. United,Defender,2,3,1,1
+Gnabry,Bayern,Forward,2,3,0,12
+Griezmann,Atlético,Forward,2,2,1,8
+Renan Lodi,Atlético,Defender,2,1,5,9,
+Rodrygo,Real Madrid,Forward,2,1,1,20,
+Hudson-Odoi,Chelsea,Midfielder,2,1,1,15
+Jorginho,Chelsea,Midfielder,2,1,0,1
+André Silva,Leipzig,Forward,2,0,9,5
+Sterling,Man. City,Forward,2,0,6,14,
+Salah,Liverpool,Forward,2,0,5,49,
+Ikoné,LOSC,Midfielder,2,0,1,15
+Werner,Chelsea,Forward,2,0,1,10
+Jones,Liverpool,Midfielder,2,0,1,0
+Matheus Nunes,Sporting CP,Midfielder,2,0,0,21
+Davies,Bayern,Midfielder,2,0,0,18
+Mazraoui,Ajax,Defender,2,0,0,13
+Mendy,Real Madrid,Defender,2,0,0,8,
+Keïta,Liverpool,Midfielder,2,0,0,6,
+Henderson,Liverpool,Midfielder,2,0,0,2,
+Vidal,Inter,Midfielder,2,0,0,2
+Ricardo Esgaio,Sporting CP,Defender,2,0,0,1
+Fernandinho,Man. City,Midfielder,2,0,0,1
+Seiwald,Salzburg,Midfielder,1,18,1,5
+Berghuis,Ajax,Forward,1,15,2,3
+Gravenberch,Ajax,Midfielder,1,15,1,18
+Lang,Club Brugge,Forward,1,12,5,17
+Aebischer,Young Boys,Midfielder,1,11,0,6
+Tsygankov,Dynamo Kyiv,Midfielder,1,10,0,8
+Oxlade-Chamberlain,Liverpool,Midfielder,1,9,0,6
+S. Thill,Sheriff,Midfielder,1,9,0,1
+Di María,Paris,Forward,1,8,1,3
+Koopmeiners,Atalanta,Midfielder,1,8,0,1
+Neymar,Paris,Forward,1,7,1,27
+Lemar,Atlético,Midfielder,1,7,0,7
+Rakitić,Sevilla,Midfielder,1,7,0,0
+De Ketelaere,Club Brugge,Forward,1,6,10,6
+Malcom,Zenit,Forward,1,6,2,12
+Vormer,Club Brugge,Midfielder,1,6,1,0
+Rieder,Young Boys,Midfielder,1,6,0,2
+Reus,Dortmund,Midfielder,1,5,7,5
+Alan Patrick,Shakhtar Donetsk,Midfielder,1,4,0,5
+Koke,Atlético,Midfielder,1,4,0,2
+Milner,Liverpool,Midfielder,1,4,0,1
+Grealish,Man. City,Midfielder,1,3,6,18
+T. Hernández,Milan,Defender,1,3,4,10
+Benzema,Real Madrid,Forward,1,2,9,18,
+Iličić,Atalanta,Midfielder,1,2,2,13
+Dybala,Juventus,Forward,1,2,0,8
+Vanaken,Club Brugge,Midfielder,1,2,0,7
+Bruno Tabata,Sporting CP,Midfielder,1,2,0,2
+João Félix,Atlético,Forward,1,1,3,21
+Taremi,Porto,Forward,1,1,2,4
+Ocampos,Sevilla,Midfielder,1,1,1,16
+Moumi Ngamaleu,Young Boys,Midfielder,1,1,0,34
+Zinchenko,Man. City,Defender,1,1,0,3
+Aurier,Villarreal,Defender,1,1,0,0
+Mané,Liverpool,Midfielder,1,0,9,17,
+Paulinho,Sporting CP,Forward,1,0,5,8
+Diogo Jota,Liverpool,Forward,1,0,4,19,
+Jesus,Man. City,Forward,1,0,4,7
+Rafa Silva,Benfica,Forward,1,0,3,27
+Rafael Leão,Milan,Forward,1,0,3,16
+Valverde,Real Madrid,Midfielder,1,0,3,10
+Haller,Ajax,Forward,1,0,3,9
+Greenwood,Man. United,Forward,1,0,3,6
+Alexis Sánchez,Inter,Forward,1,0,3,2
+Luis Díaz,Liverpool,Forward,1,0,2,42
+Perišić,Inter,Midfielder,1,0,2,13
+Kristensen,Salzburg,Defender,1,0,2,12
+Džeko,Inter,Forward,1,0,2,4
+Dzyuba,Zenit,Forward,1,0,2,1
+Pavard,Bayern,Defender,1,0,2,0,
+Van Dijk,Liverpool,Defender,1,0,2,0
+Musiala,Bayern,Midfielder,1,0,1,20
+Traore,Sheriff,Midfielder,1,0,1,13
+Pulišić,Chelsea,Midfielder,1,0,1,11
+Mæhle,Atalanta,Defender,1,0,1,11
+Carvajal,Real Madrid,Defender,1,0,1,9
+Blind,Ajax,Defender,1,0,1,8
+Meunier,Dortmund,Defender,1,0,1,7
+Zeki Çelik,LOSC,Defender,1,0,1,5
+Gomes,LOSC,Midfielder,1,0,1,3
+Camavinga,Real Madrid,Midfielder,1,0,1,2
+Bentancur,Juventus,Midfielder,1,0,1,2
+Azmoun,Zenit,Forward,1,0,1,2
+Palomino,Atalanta,Defender,1,0,1,0
+Jordi Alba,Barcelona,Defender,1,0,1,0
+Adeyemi,Salzburg,Forward,1,0,0,23
+Birmančević,Malmö,Midfielder,1,0,0,19
+Brahim Díaz,Milan,Midfielder,1,0,0,19
+Loftus-Cheek,Chelsea,Forward,1,0,0,15
+Zappacosta,Atalanta,Defender,1,0,0,12
+Pedraza,Villarreal,Midfielder,1,0,0,9,
+Lucas Vázquez,Real Madrid,Midfielder,1,0,0,6
+Freuler,Atalanta,Midfielder,1,0,0,6
+Dumfries,Inter,Defender,1,0,0,5
+Olmo,Leipzig,Forward,1,0,0,5
+Gonçalo Ramos,Benfica,Forward,1,0,0,4
+Kanté,Chelsea,Midfielder,1,0,0,4
+Laimer,Leipzig,Midfielder,1,0,0,4
+Moi Gómez,Villarreal,Midfielder,1,0,0,4
+Sobol,Club Brugge,Defender,1,0,0,4
+Karavaev,Zenit,Defender,1,0,0,4
+De Sciglio,Juventus,Defender,1,0,0,4
+Vertonghen,Benfica,Defender,1,0,0,3,
+Azpilicueta,Chelsea,Defender,1,0,0,3
+Martínez,Ajax,Defender,1,0,0,3
+Origi,Liverpool,Forward,1,0,0,3
+Mukiele,Leipzig,Defender,1,0,0,3
+Hefti,Young Boys,Defender,1,0,0,3
+Grujić,Porto,Midfielder,1,0,0,3
+Fábio Vieira,Porto,Midfielder,1,0,0,3
+Gonçalo Inácio,Sporting CP,Defender,1,0,0,2
+Pašalić,Atalanta,Midfielder,1,0,0,2
+Lingard,Man. United,Midfielder,1,0,0,2
+Poulsen,Leipzig,Forward,1,0,0,2
+Schulz,Dortmund,Defender,1,0,0,2
+Al. Miranchuk,Atalanta,Forward,1,0,0,2
+Neuer,Bayern,Goalkeeper,1,0,0,1
+Christensen,Chelsea,Defender,1,0,0,1
+Rafa Mir,Sevilla,Forward,1,0,0,1
+Kalulu,Milan,Defender,1,0,0,1
+Danilo,Juventus,Defender,1,0,0,1
+Tagliafico,Ajax,Defender,1,0,0,1
+Novoa,Leipzig,Midfielder,1,0,0,1
+Thiago Silva,Chelsea,Defender,1,0,0,0
+Marquinhos,Paris,Defender,1,0,0,0
+Klaassen,Ajax,Midfielder,1,0,0,0
+Kessié,Milan,Midfielder,1,0,0,0
+Gerhardt,Wolfsburg,Midfielder,1,0,0,0
+Tolisso,Bayern,Midfielder,1,0,0,0
+Schuurs,Ajax,Defender,1,0,0,0
+Kryvtsov,Shakhtar Donetsk,Defender,1,0,0,0
+Stanišić,Bayern,Defender,1,0,0,0
+Bernardo,Salzburg,Defender,1,0,0,0

@@ -1,0 +1,415 @@
+{"player_name":"Coates","club":"Sporting CP","position":"Defender"}
+{"player_name":"Diogo Gonçalves","club":"Benfica","position":"Midfielder"}
+{"player_name":"Gulácsi","club":"Leipzig","position":"Goalkeeper"}
+{"player_name":"Shoretire","club":"Man. United","position":"Midfielder"}
+{"player_name":"Brahim Díaz","club":"Milan","position":"Midfielder"}
+{"player_name":"Sutormin","club":"Zenit","position":"Midfielder"}
+{"player_name":"Sérgio Oliveira","club":"Porto","position":"Midfielder"}
+{"player_name":"De Ketelaere","club":"Club Brugge","position":"Forward"}
+{"player_name":"Moreno","club":"Villarreal","position":"Defender"}
+{"player_name":"Serdar Saatçı","club":"Beşiktaş","position":"Defender"}
+{"player_name":"Everton","club":"Benfica","position":"Forward"}
+{"player_name":"Sabitzer","club": "Bayern","position":"Midfielder"}
+{"player_name":"Davies","club": "Bayern","position":"Midfielder"}
+{"player_name":"T. Hernández","club":"Milan","position":"Defender"}
+{"player_name":"Modrić","club":"Real Madrid","position":"Midfielder"}
+{"player_name":"Pavard","club":"Bayern","position":"Defender"}
+{"player_name":"Maguire","club":"Man. United","position":"Defender"}
+{"player_name":"Ugarte","club":"Sporting CP","position":"Midfielder"}
+{"player_name":"Tătăruşanu","club":"Milan","position":"Goalkeeper"}
+{"player_name":"Adán","club":"Sporting CP","position":"Goalkeeper"}
+{"player_name":"Cojocari","club": "Sheriff","position":"Defender"}
+{"player_name":"Depay","club": "Barcelona","position":"Forward"}
+{"player_name":"Steffen","club": "Wolfsburg","position":"Midfielder"}
+{"player_name":"Foyth","club": "Villarreal","position":"Defender"}
+{"player_name":"Jones","club":"Liverpool","position":"Midfielder"}
+{"player_name":"Maceiras","club":"Young Boys","position":"Defender"}
+{"player_name":"Tomori","club":"Milan","position":"Defender"}
+{"player_name":"Capoue","club":"Villarreal","position":"Midfielder"}
+{"player_name":"Morata","club":"Juventus","position":"Forward"}
+{"player_name":"Pyatov","club":"Shakhtar Donetsk","position":"Goalkeeper"}
+{"player_name":"Fernando","club":"Sevilla","position":"Midfielder"}
+{"player_name":"Lo Celso","club":"Villarreal","position":"Midfielder"}
+{"player_name":"Slimani","club":"Sporting CP","position":"Forward"}
+{"player_name":"Werner","club":"Chelsea","position":"Forward"}
+{"player_name":"Kenan Karaman","club":"Beşiktaş","position":"Forward"}
+{"player_name":"Ter Stegen","club": "Barcelona","position":"Goalkeeper"}
+{"player_name":"Laporte","club":"Man. City","position":"Defender"}
+{"player_name":"Wendell","club":"Porto","position":"Defender"}
+{"player_name":"Wolf","club":"Dortmund","position":"Midfielder"}
+{"player_name":"Esteves","club":"Sporting CP","position":"Defender"}
+{"player_name":"Kolovos","club":"Sheriff","position":"Midfielder"}
+{"player_name":"Lucas Vázquez","club":"Real Madrid","position":"Midfielder"}
+{"player_name":"Rafael Leão","club":"Milan","position":"Forward"}
+{"player_name":"De Roon","club":"Atalanta","position":"Midfielder"}
+{"player_name":"Iborra","club":"Villarreal","position":"Midfielder"}
+{"player_name":"Mario Gaspar","club":"Villarreal","position":"Defender"}
+{"player_name":"Ricca","club":"Club Brugge","position":"Defender"}
+{"player_name":"Fassnacht","club":"Young Boys","position":"Midfielder"}
+{"player_name":"Fernando Costanza","club":"Sheriff","position":"Defender"}
+{"player_name":"M. Olsson","club":"Malmö","position":"Defender"}
+{"player_name":"Matheus Reis","club":"Sporting CP","position":"Defender"}
+{"player_name":"Kanga","club":"Young Boys","position":"Forward"}
+{"player_name":"Balanta","club":"Club Brugge","position":"Midfielder"}
+{"player_name":"Alexis Sánchez","club":"Inter","position":"Forward"}
+{"player_name":"Bennacer","club":"Milan","position":"Midfielder"}
+{"player_name":"Diogo Jota","club":"Liverpool","position":"Forward"}
+{"player_name":"Kobel","club":"Dortmund","position":"Goalkeeper"}
+{"player_name":"Matip","club":"Liverpool","position":"Defender"}
+{"player_name":"Siebatcheu","club":"Young Boys","position":"Forward"}
+{"player_name":"Diawara","club":"Malmö","position":"Goalkeeper"}
+{"player_name":"Sarr","club":"Bayern","position":"Defender"}
+{"player_name":"Walker","club":"Man. City","position":"Defender"}
+{"player_name":"Al. Miranchuk","club":"Atalanta","position":"Forward"}
+{"player_name":"Bamba","club":"LOSC","position":"Forward"}
+{"player_name":"Guilavogui","club":"Wolfsburg","position":"Midfielder"}
+{"player_name":"Rıdvan Yılmaz","club":"Beşiktaş","position":"Defender"}
+{"player_name":"Vlachodimos","club":"Benfica","position":"Goalkeeper"}
+{"player_name":"Reus","club":"Dortmund","position":"Midfielder"}
+{"player_name":"Spielmann","club":"Young Boys","position":"Midfielder"}
+{"player_name":"Upamecano","club":"Bayern","position":"Defender"}
+{"player_name":"Estupiñán","club":"Villarreal","position":"Defender"}
+{"player_name":"Gonçalo Ramos","club":"Benfica","position":"Forward"}
+{"player_name":"L. Hernández","club":"Bayern","position":"Defender"}
+{"player_name":"Lacroix","club":"Wolfsburg","position":"Defender"}
+{"player_name":"Raba","club":"Villarreal","position":"Midfielder"}
+{"player_name":"Weah","club":"LOSC","position":"Forward"}
+{"player_name":"Antony","club":"Ajax","position":"Forward"}
+{"player_name":"Bastoni","club":"Inter","position":"Defender"}
+{"player_name":"Peña","club":"Villarreal","position":"Defender"}
+{"player_name":"Erokhin","club":"Zenit","position":"Midfielder"}
+{"player_name":"Kimmich","club":"Bayern","position":"Midfielder"}
+{"player_name":"Kroos","club":"Real Madrid","position":"Midfielder"}
+{"player_name":"Mechele","club":"Club Brugge","position":"Defender"}
+{"player_name":"Ranocchia","club":"Inter","position":"Defender"}
+{"player_name":"Šimić","club":"Salzburg","position":"Forward"}
+{"player_name":"Calabria","club":"Milan","position":"Defender"}
+{"player_name":"Lewandowski","club":"Bayern","position":"Forward"}
+{"player_name":"Lázaro","club":"Benfica","position":"Midfielder"}
+{"player_name":"Neymar","club":"Paris","position":"Forward"}
+{"player_name":"Alcácer","club":"Villarreal","position":"Forward"}
+{"player_name":"Ersin Destanoğlu","club":"Beşiktaş","position":"Goalkeeper"}
+{"player_name":"Gnabry","club":"Bayern","position":"Forward"}
+{"player_name":"Hummels","club":"Dortmund","position":"Defender"}
+{"player_name":"Kristensen","club":"Salzburg","position":"Defender"}
+{"player_name":"Kritsyuk","club":"Zenit","position":"Goalkeeper"}
+{"player_name":"Perišić","club":"Inter","position":"Midfielder"}
+{"player_name":"Robertson","club":"Liverpool","position":"Defender"}
+{"player_name":"Tagliafico","club":"Ajax","position":"Defender"}
+{"player_name":"Giménez","club":"Atlético","position":"Defender"}
+{"player_name":"Kudus","club":"Ajax","position":"Midfielder"}
+{"player_name":"Miretti","club":"Juventus","position":"Midfielder"}
+{"player_name":"Sierro","club":"Young Boys","position":"Midfielder"}
+{"player_name":"Camara","club":"Salzburg","position":"Midfielder"}
+{"player_name":"Garmash","club":"Dynamo Kyiv","position":"Midfielder"}
+{"player_name":"Wesley","club":"Club Brugge","position":"Forward"}
+{"player_name":"Fernando","club":"Shakhtar Donetsk","position":"Midfielder"}
+{"player_name":"Mbamba-Muanda","club":"Club Brugge","position":"Defender"}
+{"player_name":"Onguéné","club":"Salzburg","position":"Defender"}
+{"player_name":"Renato Sanches","club":"LOSC","position":"Midfielder"}
+{"player_name":"Rúben Vinagre","club":"Sporting CP","position":"Defender"}
+{"player_name":"Tiago Djaló","club":"LOSC","position":"Defender"}
+{"player_name":"Gerhardt","club":"Wolfsburg","position":"Midfielder"}
+{"player_name":"Kędziora","club":"Dynamo Kyiv","position":"Defender"}
+{"player_name":"Savić","club":"Atlético","position":"Defender"}
+{"player_name":"Ballo","club":"Milan","position":"Defender"}
+{"player_name":"Coman","club":"Bayern","position":"Forward"}
+{"player_name":"Saelemaekers","club":"Milan","position":"Midfielder"}
+{"player_name":"Abubakari","club":"Malmö","position":"Forward"}
+{"player_name":"Knauff","club":"Dortmund","position":"Midfielder"}
+{"player_name":"Oxlade-Chamberlain","club":"Liverpool","position":"Midfielder"}
+{"player_name":"Piqué","club":"Barcelona","position":"Defender"}
+{"player_name":"Rafa Silva","club":"Benfica","position":"Forward"}
+{"player_name":"Rebić","club":"Milan","position":"Forward"}
+{"player_name":"Albiol","club":"Villarreal","position":"Defender"}
+{"player_name":"Martínez","club":"Inter","position":"Forward"}
+{"player_name":"Zappacosta","club":"Atalanta","position":"Defender"}
+{"player_name":"Athanasiadis","club":"Sheriff","position":"Goalkeeper"}
+{"player_name":"Delaney","club":"Sevilla","position":"Midfielder"}
+{"player_name":"Gomez","club":"Liverpool","position":"Defender"}
+{"player_name":"Palmer","club":"Man. City","position":"Midfielder"}
+{"player_name":"Tonali","club":"Milan","position":"Midfielder"}
+{"player_name":"Vanaken","club":"Club Brugge","position":"Midfielder"}
+{"player_name":"Jovane Cabral","club":"Sporting CP","position":"Forward"}
+{"player_name":"Pedri","club":"Barcelona","position":"Midfielder"}
+{"player_name":"Salih Uçan","club":"Beşiktaş","position":"Midfielder"}
+{"player_name":"João Félix","club":"Atlético","position":"Forward"}
+{"player_name":"Krunić","club":"Milan","position":"Midfielder"}
+{"player_name":"Leo Jardim","club":"LOSC","position":"Goalkeeper"}
+{"player_name":"Malcom","club":"Zenit","position":"Forward"}
+{"player_name":"Matić","club":"Man. United","position":"Midfielder"}
+{"player_name":"Pessina","club":"Atalanta","position":"Midfielder"}
+{"player_name":"Correa","club":"Atlético","position":"Forward"}
+{"player_name":"Sergi Roberto","club":"Barcelona","position":"Midfielder"}
+{"player_name":"Supryaha","club":"Dynamo Kyiv","position":"Forward"}
+{"player_name":"Fati","club":"Barcelona","position":"Forward"}
+{"player_name":"Gavi","club":"Barcelona","position":"Midfielder"}
+{"player_name":"Rúben Dias","club":"Man. City","position":"Defender"}
+{"player_name":"Sancho","club":"Man. United","position":"Midfielder"}
+{"player_name":"Adamu","club":"Salzburg","position":"Forward"}
+{"player_name":"Orbán","club":"Leipzig","position":"Defender"}
+{"player_name":"Lefort","club":"Young Boys","position":"Defender"}
+{"player_name":"Mount","club":"Chelsea","position":"Midfielder"}
+{"player_name":"Mykolenko","club":"Dynamo Kyiv","position":"Defender"}
+{"player_name":"Ocampos","club":"Sevilla","position":"Midfielder"}
+{"player_name":"Poulsen","club":"Leipzig","position":"Forward"}
+{"player_name":"Steffen","club":"Man. City","position":"Goalkeeper"}
+{"player_name":"Pulišić","club":"Chelsea","position":"Midfielder"}
+{"player_name":"Felipe","club":"Atlético","position":"Defender"}
+{"player_name":"Grbić","club":"LOSC","position":"Goalkeeper"}
+{"player_name":"Ederson","club":"Man. City","position":"Goalkeeper"}
+{"player_name":"Maycon","club":"Shakhtar Donetsk","position":"Midfielder"}
+{"player_name":"Suso","club":"Sevilla","position":"Forward"}
+{"player_name":"Bellingham","club":"Dortmund","position":"Midfielder"}
+{"player_name":"Iličić","club":"Atalanta","position":"Midfielder"}
+{"player_name":"Kolarov","club":"Inter","position":"Defender"}
+{"player_name":"Capaldo","club":"Salzburg","position":"Midfielder"}
+{"player_name":"Ronaldo","club":"Man. United","position":"Forward"}
+{"player_name":"Arboleda","club":"Sheriff","position":"Defender"}
+{"player_name":"Mazraoui","club":"Ajax","position":"Defender"}
+{"player_name":"Núñez","club":"Benfica","position":"Forward"}
+{"player_name":"Yakhshiboev","club":"Sheriff","position":"Forward"}
+{"player_name":"De Pena","club":"Dynamo Kyiv","position":"Midfielder"}
+{"player_name":"Mignolet","club":"Club Brugge","position":"Goalkeeper"}
+{"player_name":"Ricardo Esgaio","club":"Sporting CP","position":"Defender"}
+{"player_name":"Trippier","club":"Atlético","position":"Defender"}
+{"player_name":"Castañeda","club":"Sheriff","position":"Midfielder"}
+{"player_name":"Martínez","club":"Leipzig","position":"Goalkeeper"}
+{"player_name":"Barkley","club":"Chelsea","position":"Midfielder"}
+{"player_name":"Flávio Nazinho","club":"Sporting CP","position":"Defender"}
+{"player_name":"Korniienko","club":"Shakhtar Donetsk","position":"Defender"}
+{"player_name":"Mandi","club":"Villarreal","position":"Defender"}
+{"player_name":"Martial","club":"Man. United","position":"Forward"}
+{"player_name":"N'Sakala","club":"Beşiktaş","position":"Defender"}
+{"player_name":"Ozdoev","club":"Zenit","position":"Midfielder"}
+{"player_name":"Pašalić","club":"Atalanta","position":"Midfielder"}
+{"player_name":"Angeliño","club":"Leipzig","position":"Defender"}
+{"player_name":"D'Ambrosio","club":"Inter","position":"Defender"}
+{"player_name":"Tijani","club":"Salzburg","position":"Midfielder"}
+{"player_name":"Roussillon","club":"Wolfsburg","position":"Defender"}
+{"player_name":"Bernardo Silva","club":"Man. City","position":"Midfielder"}
+{"player_name":"Pogba","club":"Man. United","position":"Midfielder"}
+{"player_name":"Trigueros","club":"Villarreal","position":"Midfielder"}
+{"player_name":"Alonso","club":"Chelsea","position":"Defender"}
+{"player_name":"Dahoud","club":"Dortmund","position":"Midfielder"}
+{"player_name":"En-Nesyri","club":"Sevilla","position":"Forward"}
+{"player_name":"Jesus","club":"Man. City","position":"Forward"}
+{"player_name":"Julien","club":"Sheriff","position":"Defender"}
+{"player_name":"Mendy","club":"Chelsea","position":"Goalkeeper"}
+{"player_name":"Pongračić","club":"Dortmund","position":"Defender"}
+{"player_name":"Carson","club":"Man. City","position":"Goalkeeper"}
+{"player_name":"Haaland","club":"Dortmund","position":"Forward"}
+{"player_name":"De Ligt","club":"Juventus","position":"Defender"}
+{"player_name":"Ginczek","club":"Wolfsburg","position":"Forward"}
+{"player_name":"Shkurin","club":"Dynamo Kyiv","position":"Forward"}
+{"player_name":"Paredes","club":"Paris","position":"Midfielder"}
+{"player_name":"Pedro Gonçalves","club":"Sporting CP","position":"Midfielder"}
+{"player_name":"Phillips","club":"Liverpool","position":"Defender"}
+{"player_name":"Valverde","club":"Real Madrid","position":"Midfielder"}
+{"player_name":"Ismaily","club":"Shakhtar Donetsk","position":"Defender"}
+{"player_name":"Rafa Mir","club":"Sevilla","position":"Forward"}
+{"player_name":"Simakan","club":"Leipzig","position":"Defender"}
+{"player_name":"Garcia","club":"Young Boys","position":"Defender"}
+{"player_name":"Koundé","club":"Sevilla","position":"Defender"}
+{"player_name":"Nkunku","club":"Leipzig","position":"Midfielder"}
+{"player_name":"Sergio Busquets","club":"Barcelona","position":"Midfielder"}
+{"player_name":"Jesús Navas","club":"Sevilla","position":"Defender"}
+{"player_name":"Keïta","club":"Liverpool","position":"Midfielder"}
+{"player_name":"Müller","club":"Bayern","position":"Forward"}
+{"player_name":"Pasveer","club":"Ajax","position":"Goalkeeper"}
+{"player_name":"Šeško","club":"Salzburg","position":"Forward"}
+{"player_name":"Griezmann","club":"Atlético","position":"Forward"}
+{"player_name":"Kampl","club":"Leipzig","position":"Midfielder"}
+{"player_name":"Maldini","club":"Milan","position":"Forward"}
+{"player_name":"Marcos Antônio","club":"Shakhtar Donetsk","position":"Midfielder"}
+{"player_name":"Shabanov","club":"Dynamo Kyiv","position":"Defender"}
+{"player_name":"Bozdoğan","club":"Beşiktaş","position":"Midfielder"}
+{"player_name":"Haller","club":"Ajax","position":"Forward"}
+{"player_name":"Henderson","club":"Man. United","position":"Goalkeeper"}
+{"player_name":"Heaton","club":"Man. United","position":"Goalkeeper"}
+{"player_name":"Innocent","club":"Malmö","position":"Midfielder"}
+{"player_name":"Yaremchuk","club":"Benfica","position":"Forward"}
+{"player_name":"Diallo","club":"Man. United","position":"Midfielder"}
+{"player_name":"Traoré","club":"Shakhtar Donetsk","position":"Forward"}
+{"player_name":"Ghezzal","club":"Beşiktaş","position":"Midfielder"}
+{"player_name":"Havertz","club":"Chelsea","position":"Midfielder"}
+{"player_name":"Rakip","club":"Malmö","position":"Midfielder"}
+{"player_name":"Škriniar","club":"Inter","position":"Defender"}
+{"player_name":"Bonucci","club":"Juventus","position":"Defender"}
+{"player_name":"Pedrinho","club":"Shakhtar Donetsk","position":"Midfielder"}
+{"player_name":"De Gea","club":"Man. United","position":"Goalkeeper"}
+{"player_name":"Dzyuba","club":"Zenit","position":"Forward"}
+{"player_name":"Peña","club":"Malmö","position":"Midfielder"}
+{"player_name":"Pjanic","club":"Beşiktaş","position":"Midfielder"}
+{"player_name":"Shepeliev","club":"Dynamo Kyiv","position":"Midfielder"}
+{"player_name":"Chiesa","club":"Juventus","position":"Forward"}
+{"player_name":"Hateboer","club":"Atalanta","position":"Defender"}
+{"player_name":"Lovren","club":"Zenit","position":"Defender"}
+{"player_name":"Malinovskyi","club":"Atalanta","position":"Midfielder"}
+{"player_name":"Marc Roca","club":"Bayern","position":"Defender"}
+{"player_name":"Sensi","club":"Inter","position":"Midfielder"}
+{"player_name":"Bondar","club":"Shakhtar Donetsk","position":"Defender"}
+{"player_name":"Faivre","club":"Young Boys","position":"Goalkeeper"}
+{"player_name":"Koke","club":"Atlético","position":"Midfielder"}
+{"player_name":"Rensch","club":"Ajax","position":"Defender"}
+{"player_name":"Kehrer","club":"Paris","position":"Defender"}
+{"player_name":"Otávio","club":"Porto","position":"Midfielder"}
+{"player_name":"Zhegrova","club":"LOSC","position":"Midfielder"}
+{"player_name":"M. Kerzhakov","club":"Zenit","position":"Goalkeeper"}
+{"player_name":"McAtee","club":"Man. City","position":"Midfielder"}
+{"player_name":"Tymchyk","club":"Dynamo Kyiv","position":"Defender"}
+{"player_name":"Zagadou","club":"Dortmund","position":"Defender"}
+{"player_name":"Burak Yılmaz","club":"LOSC","position":"Forward"}
+{"player_name":"Cavani","club":"Man. United","position":"Forward"}
+{"player_name":"De Sciglio","club":"Juventus","position":"Defender"}
+{"player_name":"J. Timber","club":"Ajax","position":"Midfielder"}
+{"player_name":"Saúl Ñíguez","club":"Chelsea","position":"Midfielder"}
+{"player_name":"Acuña","club":"Sevilla","position":"Defender"}
+{"player_name":"Bernardo","club":"Salzburg","position":"Defender"}
+{"player_name":"Iqbal","club":"Man. United","position":"Midfielder"}
+{"player_name":"Edwards","club":"Sporting CP","position":"Forward"}
+{"player_name":"Guindo","club":"Salzburg","position":"Defender"}
+{"player_name":"Zabarnyi","club":"Dynamo Kyiv","position":"Defender"}
+{"player_name":"De Winter","club":"Juventus","position":"Defender"}
+{"player_name":"Konaté","club":"Liverpool","position":"Defender"}
+{"player_name":"Pedraza","club":"Villarreal","position":"Midfielder"}
+{"player_name":"Rieder","club":"Young Boys","position":"Midfielder"}
+{"player_name":"Jordi Alba","club":"Barcelona","position":"Defender"}
+{"player_name":"Mbabu","club":"Wolfsburg","position":"Defender"}
+{"player_name":"Reinildo","club":"LOSC","position":"Defender"}
+{"player_name":"Camavinga","club":"Real Madrid","position":"Midfielder"}
+{"player_name":"Cojocaru","club":"Sheriff","position":"Midfielder"}
+{"player_name":"Gökhan Töre","club":"Beşiktaş","position":"Midfielder"}
+{"player_name":"L. Nmecha","club":"Wolfsburg","position":"Forward"}
+{"player_name":"David","club":"LOSC","position":"Forward"}
+{"player_name":"Grealish","club":"Man. City","position":"Midfielder"}
+{"player_name":"Kravtsov","club":"Zenit","position":"Midfielder"}
+{"player_name":"Nsoki","club":"Club Brugge","position":"Defender"}
+{"player_name":"Cristiano","club":"Sheriff","position":"Defender"}
+{"player_name":"Donnarumma","club":"Paris","position":"Goalkeeper"}
+{"player_name":"Solet","club":"Salzburg","position":"Defender"}
+{"player_name":"Günok","club":"Beşiktaş","position":"Goalkeeper"}
+{"player_name":"Muriel","club":"Atalanta","position":"Forward"}
+{"player_name":"Florenzi","club":"Milan","position":"Defender"}
+{"player_name":"Karavaev","club":"Zenit","position":"Defender"}
+{"player_name":"Shaparenko","club":"Dynamo Kyiv","position":"Midfielder"}
+{"player_name":"Baku","club":"Wolfsburg","position":"Midfielder"}
+{"player_name":"Chalobah","club":"Chelsea","position":"Defender"}
+{"player_name":"James","club":"Chelsea","position":"Defender"}
+{"player_name":"Oğuzhan Özyakup","club":"Beşiktaş","position":"Midfielder"}
+{"player_name":"Berkay Vardar","club":"Beşiktaş","position":"Midfielder"}
+{"player_name":"Bruno Fernandes","club":"Man. United","position":"Midfielder"}
+{"player_name":"Karavaev","club":"Dynamo Kyiv","position":"Defender"}
+{"player_name":"Lewicki","club":"Malmö","position":"Midfielder"}
+{"player_name":"Moi Gómez","club":"Villarreal","position":"Midfielder"}
+{"player_name":"Rodrigo Ribeiro","club":"Sporting CP","position":"Forward"}
+{"player_name":"Sandra","club":"Club Brugge","position":"Midfielder"}
+{"player_name":"Gonçalo Inácio","club":"Sporting CP","position":"Defender"}
+{"player_name":"Icardi","club":"Paris","position":"Forward"}
+{"player_name":"Iván Romero","club":"Sevilla","position":"Forward"}
+{"player_name":"Lovato","club":"Atalanta","position":"Defender"}
+{"player_name":"Pepê","club":"Porto","position":"Forward"}
+{"player_name":"Salah","club":"Liverpool","position":"Forward"}
+{"player_name":"Vallejo","club":"Real Madrid","position":"Defender"}
+{"player_name":"Matheus Cunha","club":"Atlético","position":"Forward"}
+{"player_name":"Rodri","club":"Man. City","position":"Midfielder"}
+{"player_name":"Stanišić","club":"Bayern","position":"Defender"}
+{"player_name":"Asensio","club":"Real Madrid","position":"Forward"}
+{"player_name":"Souza","club":"Beşiktaş","position":"Midfielder"}
+{"player_name":"Mudryk","club":"Shakhtar Donetsk","position":"Midfielder"}
+{"player_name":"Vida","club":"Beşiktaş","position":"Defender"}
+{"player_name":"Vitão","club":"Shakhtar Donetsk","position":"Defender"}
+{"player_name":"Ceballos","club":"Real Madrid","position":"Midfielder"}
+{"player_name":"Hutchinson","club":"Beşiktaş","position":"Midfielder"}
+{"player_name":"Ricard Puig","club":"Barcelona","position":"Midfielder"}
+{"player_name":"Dumfries","club":"Inter","position":"Defender"}
+{"player_name":"Elanga","club":"Man. United","position":"Forward"}
+{"player_name":"Foden","club":"Man. City","position":"Midfielder"}
+{"player_name":"Grimaldo","club":"Benfica","position":"Defender"}
+{"player_name":"Gündoğan","club":"Man. City","position":"Midfielder"}
+{"player_name":"Klaassen","club":"Ajax","position":"Midfielder"}
+{"player_name":"Kondogbia","club":"Atlético","position":"Midfielder"}
+{"player_name":"Tillman","club":"Bayern","position":"Midfielder"}
+{"player_name":"Bonnah","club":"Leipzig","position":"Midfielder"}
+{"player_name":"Ferran Torres","club":"Man. City","position":"Forward"}
+{"player_name":"Mengi","club":"Man. United","position":"Defender"}
+{"player_name":"Philipp","club":"Wolfsburg","position":"Forward"}
+{"player_name":"Syrota","club":"Dynamo Kyiv","position":"Defender"}
+{"player_name":"Boyko","club":"Dynamo Kyiv","position":"Goalkeeper"}
+{"player_name":"Loftus-Cheek","club":"Chelsea","position":"Forward"}
+{"player_name":"Passlack","club":"Dortmund","position":"Midfielder"}
+{"player_name":"Shevchenko","club":"Shakhtar Donetsk","position":"Goalkeeper"}
+{"player_name":"Fabinho","club":"Liverpool","position":"Midfielder"}
+{"player_name":"Shaw","club":"Man. United","position":"Defender"}
+{"player_name":"Bürgy","club":"Young Boys","position":"Defender"}
+{"player_name":"Giroud","club":"Milan","position":"Forward"}
+{"player_name":"Greenwood","club":"Man. United","position":"Forward"}
+{"player_name":"Douglas Santos","club":"Zenit","position":"Defender"}
+{"player_name":"Dybala","club":"Juventus","position":"Forward"}
+{"player_name":"Evanilson","club":"Porto","position":"Forward"}
+{"player_name":"Gagliardini","club":"Inter","position":"Midfielder"}
+{"player_name":"Pizzi","club":"Benfica","position":"Midfielder"}
+{"player_name":"Rodrygo","club":"Real Madrid","position":"Forward"}
+{"player_name":"Zesiger","club":"Young Boys","position":"Defender"}
+{"player_name":"Alexander-Arnold","club":"Liverpool","position":"Defender"}
+{"player_name":"Lednev","club":"Dynamo Kyiv","position":"Midfielder"}
+{"player_name":"Meite","club":"Benfica","position":"Midfielder"}
+{"player_name":"Mukiele","club":"Leipzig","position":"Defender"}
+{"player_name":"Vlahović","club":"Juventus","position":"Forward"}
+{"player_name":"Wöber","club":"Salzburg","position":"Defender"}
+{"player_name":"Buyalskiy","club":"Dynamo Kyiv","position":"Midfielder"}
+{"player_name":"Jorginho","club":"Chelsea","position":"Midfielder"}
+{"player_name":"Lauper","club":"Young Boys","position":"Midfielder"}
+{"player_name":"Mbemba","club":"Porto","position":"Defender"}
+{"player_name":"Messi","club":"Paris","position":"Forward"}
+{"player_name":"Pepe","club":"Porto","position":"Defender"}
+{"player_name":"Bruno","club":"Sheriff","position":"Midfielder"}
+{"player_name":"F. Nmecha","club":"Wolfsburg","position":"Midfielder"}
+{"player_name":"Köhn","club":"Salzburg","position":"Goalkeeper"}
+{"player_name":"Richards","club":"Bayern","position":"Defender"}
+{"player_name":"Solomon","club":"Shakhtar Donetsk","position":"Midfielder"}
+{"player_name":"Darmian","club":"Inter","position":"Defender"}
+{"player_name":"Minamino","club":"Liverpool","position":"Forward"}
+{"player_name":"Mostovoy","club":"Zenit","position":"Midfielder"}
+{"player_name":"Rüdiger","club":"Chelsea","position":"Defender"}
+{"player_name":"Gravenberch","club":"Ajax","position":"Midfielder"}
+{"player_name":"Lukaku","club":"Chelsea","position":"Forward"}
+{"player_name":"Renan Lodi","club":"Atlético","position":"Defender"}
+{"player_name":"André","club":"LOSC","position":"Midfielder"}
+{"player_name":"Camara","club":"Young Boys","position":"Defender"}
+{"player_name":"Dodô","club":"Shakhtar Donetsk","position":"Defender"}
+{"player_name":"Emre Can","club":"Dortmund","position":"Defender"}
+{"player_name":"Lamela","club":"Sevilla","position":"Midfielder"}
+{"player_name":"Musiala","club":"Bayern","position":"Midfielder"}
+{"player_name":"Piątkowski","club":"Salzburg","position":"Defender"}
+{"player_name":"Rosier","club":"Beşiktaş","position":"Defender"}
+{"player_name":"Christensen","club":"Chelsea","position":"Defender"}
+{"player_name":"Egan-Riley","club":"Man. City","position":"Defender"}
+{"player_name":"L. Nielsen","club":"Malmö","position":"Defender"}
+{"player_name":"Birmančević","club":"Malmö","position":"Midfielder"}
+{"player_name":"Bernardeschi","club":"Juventus","position":"Midfielder"}
+{"player_name":"Dalot","club":"Man. United","position":"Defender"}
+{"player_name":"Rabiot","club":"Juventus","position":"Midfielder"}
+{"player_name":"Stones","club":"Man. City","position":"Defender"}
+{"player_name":"Sudakov","club":"Shakhtar Donetsk","position":"Midfielder"}
+{"player_name":"Trubin","club":"Shakhtar Donetsk","position":"Goalkeeper"}
+{"player_name":"Bakayoko","club":"Milan","position":"Defender"}
+{"player_name":"Nalić","club":"Malmö","position":"Midfielder"}
+{"player_name":"Bradley","club":"Liverpool","position":"Midfielder"}
+{"player_name":"Firmino","club":"Liverpool","position":"Midfielder"}
+{"player_name":"Alaba","club":"Real Madrid","position":"Defender"}
+{"player_name":"Carrasco","club":"Atlético","position":"Forward"}
+{"player_name":"Schulz","club":"Dortmund","position":"Defender"}
+{"player_name":"Alan Patrick","club":"Shakhtar Donetsk","position":"Midfielder"}
+{"player_name":"Brandt","club":"Dortmund","position":"Midfielder"}
+{"player_name":"Handanovič","club":"Inter","position":"Goalkeeper"}
+{"player_name":"Kryvtsov","club":"Shakhtar Donetsk","position":"Defender"}
+{"player_name":"Correa","club":"Inter","position":"Forward"}
+{"player_name":"Courtois","club":"Real Madrid","position":"Goalkeeper"}
+{"player_name":"Džeko","club":"Inter","position":"Forward"}
+{"player_name":"Ulmer","club":"Salzburg","position":"Defender"}
+{"player_name":"Verratti","club":"Paris","position":"Midfielder"}
+{"player_name":"Balde","club":"Barcelona","position":"Defender"}
+{"player_name":"Dahlin","club":"Malmö","position":"Goalkeeper"}
+{"player_name":"Sterling","club":"Man. City","position":"Forward"}
+{"player_name":"Kalulu","club":"Milan","position":"Defender"}
