@@ -1,7 +1,25 @@
 
 # DB Interview Spark Scala
 
-It is a Maven project based on `Spark 2.4.7` and Scala `2.11.8`
+It is a Maven project based on `Spark 2.4.7`, Scala `2.11.12` and Java 1.8 (openjdk recommended)
+
+### How to run Spark in local Windows?
+1. https://www.knowledgehut.com/blog/big-data/how-to-install-apache-spark-on-windows
+
+outcomes:
+- HADOOP_HOME
+- SPARK_HOME
+- JAVA_HOME
+
+2. Run `PreparationPreInterview`
+3. output:
+
+| club        | player_name     | position   |
+|-------------|-----------------|------------|
+| Sporting CP | Coates          | Defender   |
+| Benfica     | Diogo Gonçalves | Midfielder |
+...
+
 
 ### Dataset Model
 
