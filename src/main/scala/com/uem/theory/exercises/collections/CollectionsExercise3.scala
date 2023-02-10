@@ -2,13 +2,19 @@ package com.uem.theory.exercises.collections
 
 object CollectionsExercise3 extends App {
 
-  // Define a list of numbers
-  val numbers = List(1, 2, 3, 4, 5)
+  // Define a Map of (String, Int) pairs
+  val wordCounts = Map("the" -> 5, "hello" -> 2, "world" -> 3)
 
-  // TODO: Use the map function to multiply each element by 2
-  // TODO: Use the filter function to select only even numbers
-  // TODO: Use the reduce function to find the sum of all elements
-  // TODO: Use the foldLeft function to find the product of all elements
-  // TODO: Use the forEach function to print each element
+  // Use the get function to retrieve the count of a word
+
+  // Use the getOrElse function to retrieve the count of a word, with a default value
+
+  // Use the contains function to check if a word is in the Map
+
+  // Use the keys function to retrieve the keys of the Map
+
+  // Use the values function to retrieve the values of the Map
+
+  // Use the foreach function to iterate over the Map
 
 }
