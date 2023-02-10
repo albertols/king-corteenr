@@ -3,17 +3,32 @@ package com.uem.theory.exercises
 object Functions extends App {
 
   // Several ways to define the same function
-  val f: Int => Int = i => i + 1
+  //val f: Int => Int = i => i + 1
   //val f = (i: Int) => i+1
-  //val f: Int => Int = _+1
+  val f: Int => Int = _+1
+
 
   println(f(1))
 
   // And a equivalent method
+  // Java
+  //private Integer myMEthod (Integer x) {
+  //        return x +1;
+  //    }
   def m(i: Int) = i + 1
   //def m(i:Int):Int = i+1
   //def m(i:Int):Int  = f(i)
   //def m = f
+
+  def sum2(p1:Int, p2:Int) = p1+p2
+
+  // TODO: express sum2 in a functional fashion
+  println (s"sum2=${sum2(1,2)}")
+
+  // partially applied functions (_)
+  val sum3 : (Int, Int) => Int = _ + _ + 1
+  println ()
+  System.exit(-1)
 
   println(m(1))
 

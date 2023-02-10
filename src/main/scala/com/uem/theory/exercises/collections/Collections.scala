@@ -1,4 +1,4 @@
-package com.uem.theory.exercises
+package com.uem.theory.exercises.collections
 
 object Collections extends App {
 

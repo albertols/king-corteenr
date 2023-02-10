@@ -1,7 +1,6 @@
 package com.uem.theory.exercises
 
 object Classes extends App {
-
   // Define, instantiate and access members of a class
   class SimplePoint(var x: Int, var y: Int) {
     def move(dx: Int, dy: Int): Unit = {
@@ -9,6 +8,7 @@ object Classes extends App {
       y = y + dy
     }
     override def toString: String = s"($x, $y)"
+    case class myNestedClass(nameOfAlbum :String)
   }
 
   val point1 = new SimplePoint(2, 3)
@@ -19,7 +19,7 @@ object Classes extends App {
   class Point(private var _x: Int = 0, private var _y: Int = 0) {
     private val bound = 100
     def x = _x
-    def x_=(newValue: Int): Unit = {
+    def x_=(newValue: Int): Unit = { // this would be equivalent to a setter
       if (newValue < bound) _x = newValue else printWarning
     }
     def y = _y
@@ -28,6 +28,8 @@ object Classes extends App {
     }
     private def printWarning = println("WARNING: Out of bounds")
     override def toString: String = s"($x, $y)"
+
+    //var mySimplePoint:SimplePoint = new SimplePoint(5,6)
   }
 
   val point2 = new Point
@@ -36,6 +38,7 @@ object Classes extends App {
   println(point2)
   point2.x = 101
   //point2._x = 101 //variable _x is private
+  System.exit(-1)
 
   // Define additional constructors
   class Greeter(private var _message: String, secondaryMessage: String) {
@@ -50,6 +53,6 @@ object Classes extends App {
   g.message = "bye"
   g.sayHi()
 
-  // TODO Make message in class Greeter private and provide getters/setters
+  // TODO: make an abstract factory in Scala
 
 }
