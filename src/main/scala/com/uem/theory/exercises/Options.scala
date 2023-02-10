@@ -3,24 +3,23 @@ package com.uem.theory.exercises
 object Options extends App {
 
   //Playing with options
+  val lleno: Option[String] = Some("alberto")
+  val vacio = None
+  println(lleno.isEmpty)
+  println(lleno.isDefined)
+  println(lleno.getOrElse("b"))
+  println(vacio.getOrElse("b"))
+  println(lleno.get)
+  println(vacio.get) //error
 
-  val s: Option[String] = Some("a")
-  val n = None
-  println(s.isEmpty)
-  println(s.isDefined)
-  println(s.getOrElse("b"))
-  println(n.getOrElse("b"))
-  println(s.get)
-  println(n.get) //error
-
-  def f[T](o: Option[T]) = {
+  def f_pat[T](o: Option[T]) = {
     o match {
       case None => println("Option is empty")
       case Some(v) => println(s"Option has value: $v")
     }
   }
 
-  f(s)
-  f(n)
+  f_pat(lleno)
+  f_pat(vacio)
 
 }
