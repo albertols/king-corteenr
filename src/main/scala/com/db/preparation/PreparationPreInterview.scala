@@ -1,6 +1,7 @@
 package com.db.preparation
 
 import com.db.SparkUtils
+import com.db.utils.MySleep.uemSleep
 import com.resolved.ResolvedApplication.getClass
 import com.resolved.reader.{CSVReader, ReaderDf}
 import org.apache.spark.sql.DataFrame
@@ -34,10 +35,14 @@ object PreparationPreInterview extends SparkUtils {
      * Go to CSVReader.scala class and complete the code so its capable of reading CSV files as a dataframe
      * =========================================================================================
      */
-    //val csvReader: ReaderDf = CSVReader(options = Map(
-    //  "header" -> "true",
-    //  "inferSchema" -> "true"
-    //))
+    val csvReader: ReaderDf = CSVReader(options = Map(
+      "header" -> "true",
+      "inferSchema" -> "true"
+    ))
+    val csvDf = csvReader.readDf(attackingPath)
+    csvDf.show
+    uemSleep(10000000)
+    System.exit(-1)
 
 
     Thread.sleep(1000000)
