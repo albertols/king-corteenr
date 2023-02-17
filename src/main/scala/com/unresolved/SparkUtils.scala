@@ -1,4 +1,4 @@
-package com.db
+package com.unresolved
 
 import org.apache.spark.sql.SparkSession
 

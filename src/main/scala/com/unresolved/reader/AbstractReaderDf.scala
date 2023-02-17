@@ -1,4 +1,4 @@
-package com.db.reader
+package com.unresolved.reader
 
 import org.apache.spark.sql.{DataFrame, SparkSession}
 

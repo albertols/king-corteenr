@@ -81,7 +81,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.db.Application</mainClass>
+                            <mainClass>com.unresolved.Application</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
