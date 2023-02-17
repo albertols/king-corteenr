@@ -8,12 +8,14 @@ object Collections extends App {
   val is = Set(1, 2, 3)
   val ms = mutable.Set(1, 2, 3)
 
-  val is2 = is - 1
+  val is2 = is +7
   ms += 4
 
-  println(is)
-  println(is2)
-  println(ms)
+  println("is "+is)
+  println("is _ 1"+is.filter(_.equals(1)))
+  println("is2 "+is2)
+  println("ms "+ms)
+  System.exit(-1)
 
   // Creating and using maps
 

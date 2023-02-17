@@ -1,5 +1,7 @@
 package com.uem.theory.exercises
 
+import scala.annotation.tailrec
+
 object Functions extends App {
 
   // Several ways to define the same function
