@@ -1,6 +1,8 @@
 package com.db.preparation
 
 import com.db.SparkUtils
+import com.resolved.ResolvedApplication.getClass
+import com.resolved.reader.{CSVReader, ReaderDf}
 import org.apache.spark.sql.DataFrame
 
 object PreparationPreInterview extends SparkUtils {
@@ -12,10 +14,33 @@ object PreparationPreInterview extends SparkUtils {
    */
   def main(args: Array[String]): Unit = {
     val players1JSONPath: String = getClass.getResource("/players1.json").getPath
+    val players2JSONPath: String = getClass.getResource("/players2.json").getPath
+    val attackingPath: String = getClass.getResource("/attacking.csv").getPath
+    val distributionPath: String = getClass.getResource("/distr.csv").getPath
+    val goalkeepingPath: String = getClass.getResource("/goalkeeping.csv").getPath
+    val goalsPath: String = getClass.getResource("/goals.csv").getPath
+    val keyStatsPath: String = getClass.getResource("/key_stats.csv").getPath
+
+
     val testDf: DataFrame = spark
       .read
       .json(players1JSONPath)
     testDf.show(false)
+
+
+    /**
+     * =========================================================================================
+     * TODO 1:
+     * Go to CSVReader.scala class and complete the code so its capable of reading CSV files as a dataframe
+     * =========================================================================================
+     */
+    //val csvReader: ReaderDf = CSVReader(options = Map(
+    //  "header" -> "true",
+    //  "inferSchema" -> "true"
+    //))
+
+
+    Thread.sleep(1000000)
     spark.sqlContext.clearCache()
   }
 

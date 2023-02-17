@@ -1,14 +1,23 @@
 package com.uem.theory.exercises
 
+import com.uem.theory.exercises.reflection.Julio
+
 /**
+ * IMPORTANT:
  * Implicit conversions can be used to extend the functionality of existing classes in a concise and elegant way.
  */
 object Implicits extends App {
 
   //Ej.1: we're adding a method uni to the built-in Scala class String.
-  implicit class StringWithSpeak(val s: String) {
+  implicit class StringWithSpeak(val s: String) extends Julio (s, 50){
     def uni = s"I am studying: $s"
+
+    override def divideAndWin(): Unit = {
+      println("me divido soy Julio")
+    }
   }
+
+  println("bases de datos".divideAndWin())
 
   "Scala".uni
   println("Scala".uni)
