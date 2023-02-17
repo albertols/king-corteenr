@@ -22,7 +22,7 @@ object PreparationPreInterview extends SparkUtils {
     val keyStatsPath: String = getClass.getResource("/key_stats.csv").getPath
 
 
-    val testDf: DataFrame = spark
+    val testDf: DataFrame = spark // SparkContext
       .read
       .json(players1JSONPath)
     testDf.show(false)
