@@ -53,6 +53,23 @@ object Week9 extends SparkUtils {
      * =========================================================================================
      */
     import spark.implicits._
+    val dnaStudies = dna_100.select(col("annotation.alternate"), $"id", $"start", $"end", explode($"studies"))
+      .withColumn("la_hora_de_ahora", current_timestamp())
+      .withColumn("ts_unix_la_hora_de_ahora", unix_timestamp())
+      .withColumn("t_valentina", from_unixtime($"end"))
+    //.withColumn("t", to_timestamp(col("end"), "dd-MM-YYYY"))
+    dnaStudies.show(false)
+
+
+    dnaStudies.select($"col.studyId", $"id", $"end", $"t_valentina")
+      .show(2000, false)
+    dnaStudies.printSchema
+
+    /**
+     * TODO 1.2.1: upper case transformation of studyId
+     */
+    val upper_sol = dnaStudies.select(upper(col("col.studyId")).as("LIMBER_ID"))
+    upper_sol.show(2, false)
 
 
     /**
@@ -78,9 +95,10 @@ object Week9 extends SparkUtils {
      * Combine players1 and players2 dataframes into a single one and get rid of the duplicates
      * =========================================================================================
      */
-    val playersDf: DataFrame = ???
+    println("TODO SPARK 3: UNION:")
+    val playersDf: DataFrame = players1Df.union(players2Df).distinct
+    playersDf.show(10, false)
 
-    println("UNION:")
 
     /**
      * =========================================================================================
@@ -89,8 +107,18 @@ object Week9 extends SparkUtils {
      * 'goals' and 'assists' fields are shared between more than one file. Keep only the one coming from the 'key_stats.csv'.
      * =========================================================================================
      */
+      println(s"TODO SPARK 4")
     val pks = Seq("player_name", "club", "position")
-    val fullDf = ???
+    val fullDf = playersDf
+      .join(attackingDf.repartition(15).drop("assists"), pks, "left")
+      .join(distributionDf, pks, "left")
+      .join(goalkeepingDf, pks, "left")
+      .join(goalsDf.drop("goals"), pks, "left")
+      .join(keyStatsDf, pks, "left")
+
+    assert(fullDf.count == playersDf.count)
+    fullDf.printSchema()
+    fullDf.show(10, false)
 
 
     /**
@@ -101,16 +129,28 @@ object Week9 extends SparkUtils {
      * Create a new function called 'fillGaps' and use it.
      * =========================================================================================
      */
-    def fillGaps(df: DataFrame): DataFrame = ???
+    def fillGaps(df: DataFrame): DataFrame = df
+      .na.fill("not_available")
+      .na.fill(0.0)
+      .na.fill(0)
+
+    val curatedFullDf: DataFrame = fillGaps(fullDf)
+    println("TODO 5 SPARK: curatedFullDf:")
+    curatedFullDf.show(false)
     println("curatedFullDf:")
 
     /**
      * =========================================================================================
      * TODO 6:
-     * Filter out all the players that have played less than 5 matches or did not cover at least 5.5 of distance.
+     * Filter out all the players that have played less than 5 matches OR did not cover at least 5.5 of distance.
      * =========================================================================================
      */
-    val participatingPlayersDf = ???
+      // match_played
+      // distance_covered
+    println("TODO SPARK 6: participatingPlayersDf:")
+    val participatingPlayersDf_0 = curatedFullDf.filter("match_played>= 5 and distance_covered > lit(5.5)")
+    val participatingPlayersDf = curatedFullDf.filter(col("match_played") >= 5 or col("distance_covered") > lit(5.5))
+    participatingPlayersDf.show(false)
 
     /**
      * =========================================================================================
@@ -119,9 +159,15 @@ object Week9 extends SparkUtils {
      * Select only primary keys and relevant columns
      * =========================================================================================
      */
-    val goaliesSaveConcedeRatioDf = ???
+    println("TODO SPARK 7: goaliesSaveConcedeRatioDf:")
+    val goaliesSaveConcedeRatioDf = participatingPlayersDf
+      .filter("position = 'Goalkeeper'")
+      .withColumn("save_concede_ratio", col("saved")/col("conceded"))
+      .sort(desc("save_concede_ratio"))
+      .select("player_name", "club", "position", "save_concede_ratio")
+    // select de p.k + save_concede_ratio
 
-    println("goaliesSaveConcedeRatioDf:")
+
 
     /**
      * =========================================================================================
@@ -129,7 +175,8 @@ object Week9 extends SparkUtils {
      * Get the number of players that play on each position
      * =========================================================================================
      */
-    println("Num Players By Pos:")
+    println("TODO SPARK 8: Num Players By Pos:")
+    curatedFullDf.groupBy("position").count().show
 
     /**
      * =========================================================================================
@@ -137,7 +184,17 @@ object Week9 extends SparkUtils {
      * Get the distance covered per minute on each team
      * =========================================================================================
      */
-    println("Club distances per minute:")
+    println("TODO 9 SPARK: Club distances per minute:")
+    curatedFullDf
+      .groupBy("club")
+      .agg(
+        sum("minutes_played"),
+        sum("distance_covered")
+      )
+      .withColumn("distance_covered_per_minute", col("total_distance_covered") / col("total_minutes_played"))
+      .show(false)
+
+
 
     /**
      * =========================================================================================
@@ -147,7 +204,17 @@ object Week9 extends SparkUtils {
      * Select only relevant columns
      * =========================================================================================
      */
-    println("Most Scorer by club and position:")
+    println("TODO SPARK 10: Most Scorer by club and position:")
+    curatedFullDf
+      .withColumn("most_goals", functions.max(col("goals")).over(Window.partitionBy("club", "position")))
+      .filter(col("most_goals") === col("goals"))
+      .filter(col("goals") > 0)
+      .select("player_name", "club", "position", "most_goals")
+      .orderBy(asc("club"), asc("position"))
+      .show(false)
+    uemSleep(10000000)
+    spark.sqlContext.clearCache()
+    System.exit(-1)
 
     /**
      * =========================================================================================
@@ -155,7 +222,9 @@ object Week9 extends SparkUtils {
      * Group all the players that belong to a club in a single 'array' column named "players"
      * =========================================================================================
      */
-    println("Players by Club:")
+    println("TODO SPARK 11: Players by Club:")
+    curatedFullDf.groupBy("club").agg(collect_set("player_name").as("players")).show(false)
+
 
     /**
      * =========================================================================================
@@ -165,9 +234,16 @@ object Week9 extends SparkUtils {
      * - A new column 'execution_date' with the current date in a ISO Date Format
      * =========================================================================================
      */
-    val withMetadataDf = ???
+    println("TODO SPARK 12: curatedFullDf with metadata:")
+    val withMetadataDf = curatedFullDf
+      .withColumn("id", expr("uuid()"))
+      .withColumn("id_peligroso", monotonically_increasing_id)
+      .withColumn("execution_date", date_format(current_date(), "yyyy-MM-dd"))
 
-    println("curatedFullDf with metadata:")
+    println("TODO 11 SPARK: uratedFullDf with metadata:")
+    withMetadataDf
+      .show(false)
+
 
     /**
      * =========================================================================================
@@ -176,6 +252,13 @@ object Week9 extends SparkUtils {
      * Use the SaveMode Overwrite
      * =========================================================================================
      */
+    withMetadataDf
+      .write
+      .partitionBy("club", "execution_date")
+      .mode(SaveMode.Overwrite)
+      .parquet("./landing_area")
+
+    uemSleep(10000000)
 
 
 
