@@ -1,6 +1,7 @@
 package com.uem.ml
 
 import com.unresolved.SparkUtils
+import com.unresolved.utils.MySleep.uemSleep
 import org.apache.spark.mllib.regression.LinearRegressionWithSGD
 import org.apache.spark.sql.Row
 import org.apache.spark.sql.functions.{col, explode}
@@ -63,11 +64,12 @@ object ML_UA6 extends SparkUtils {
     val casasDatosDf = spark.createDataFrame(casasDatos)
     casasDatosDf.show(false)
 
+
     /*
     5.0. Dividir los datos: entrenamiento y validación
     */
     val sets = casasDatos.randomSplit(Array(0.8, 0.2))
-    val casasEntrenamiento = sets(0)
+    val casasEntrenamiento = sets(0) // 80%!!
     val casasValidacion = sets(1)
 
     /*
@@ -76,7 +78,7 @@ object ML_UA6 extends SparkUtils {
     import org.apache.spark.mllib.feature.StandardScaler
     println(s"\n************ 5.1. Escalado de características y normalización media... ************")
     val scaler = new StandardScaler(true, true).fit(casasEntrenamiento.map(x => x.features))
-    println(s"$scaler")
+    println(s"${scaler}")
     println(s"\n************ 5.1. entrenamientoEscalado ************")
     val entrenamientoEscalado = casasEntrenamiento.map(x =>
       LabeledPoint(x.label, scaler.transform(x.features)))
@@ -86,6 +88,7 @@ object ML_UA6 extends SparkUtils {
     //    validacionEscalado.toDF().show(false)
     //
 
+
     /*
     6.1. Método de entrenamiento estático
     */
@@ -94,31 +97,39 @@ object ML_UA6 extends SparkUtils {
     println(modelo)
 
 
+
     /*
     6.2.  Método no estándar
     */
     println(s"\n************ 6.2.  Método no estándar ************")
-    import org.apache.spark.mllib.regression.LinearRegressionWithSGD
+    //import org.apache.spark.mllib.regression.LinearRegressionWithSGD
     val alg = new LinearRegressionWithSGD()
     alg.setIntercept(true)
     alg.optimizer.setNumIterations(200)
+    // WATCH OUT:: GC strategy and memory overhjead when caching.
+    // https://www.databricks.com/blog/2015/05/28/tuning-java-garbage-collection-for-spark-applications.html !!
     entrenamientoEscalado.cache()
     validacionEscalado.cache()
 
     //  Comienza  el entrenamiento del modelo.!!
     val modelo2 = alg.run(entrenamientoEscalado)
-
-
+    println (s"modelo2=$modelo2")
+    modelo2.save(sc , "trained/model_class_2")
+    //uemSleep(100)
 
     /*
     7. Predecir los valores objetivo
     */
     println(s"\n************ 7. Predecir los valores objetivo ************")
-    val precccionesValidas = validacionEscalado.map(x =>
-      (modelo.predict(x.features), x.label))
-    precccionesValidas.collect()
+    println (s"validacionEscalado =>")
+    import spark.implicits._
+    validacionEscalado.toDF().take(10)
+    val prediccionesValidas = validacionEscalado.map(x =>
+      (modelo2.predict(x.features), x.label))
+    println (s"prediccionesValidas =>")
+    prediccionesValidas.collect().foreach(println)
 
-    val rmse = math.sqrt(precccionesValidas.map { case (p, l) =>
+    val rmse = math.sqrt(prediccionesValidas.map { case (p, l) =>
       math.pow(p - l, 2)
     }.mean())
     println(s"rmse=$rmse")
@@ -128,7 +139,7 @@ object ML_UA6 extends SparkUtils {
     */
     println(s"\n************ 8.  Evaluar el rendimiento del modelo  ************")
     import org.apache.spark.mllib.evaluation.RegressionMetrics
-    val metricas = new RegressionMetrics(precccionesValidas)
+    val metricas = new RegressionMetrics(prediccionesValidas)
     println(s"metricas.rootMeanSquaredError = ${metricas.rootMeanSquaredError}")
     println(s"metricas.meanSquaredError = ${metricas.meanSquaredError}")
 
@@ -136,8 +147,11 @@ object ML_UA6 extends SparkUtils {
     9. Interpretando los parámetros del modelo
     */
     println(s"\n************ 9. Interpretando los parámetros del modelo  ************")
-    println(modelo.weights.toArray.map(x =>
+    println(modelo2.weights.toArray.map(x =>
       x.abs).zipWithIndex.sortBy(_._1).mkString(",  \n"))
+    System.exit(-1)
+
+    // TODO práctica: https://www.cloudskillsboost.google/focuses/1797?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=22690127
 
   }
 
